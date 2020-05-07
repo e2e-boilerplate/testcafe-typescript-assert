@@ -1,4 +1,4 @@
-name: testcafe-typescript
+name: testcafe-typescript-assert
 'on':
   push: null
   schedule:

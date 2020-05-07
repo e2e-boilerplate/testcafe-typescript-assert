@@ -1,13 +1,13 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/testcafe-typescript/issues"
+    "url": "https://github.com/e2e-boilerplate/testcafe-typescript-assert/issues"
   },
   "dependencies": {
     "testcafe": "1.8.4",
     "typescript": "3.8.3"
   },
-  "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript.",
+  "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript and Assert.",
   "devDependencies": {
     "@types/node": "13.13.4",
     "husky": "4.2.5",
@@ -17,13 +17,14 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.3.0"
   },
-  "homepage": "https://github.com/e2e-boilerplate/testcafe-typescript#readme",
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-typescript-assert#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
+    "assert",
     "boilerplate",
     "e2e",
     "e2e tests",
@@ -38,10 +39,10 @@
       "prettier --write"
     ]
   },
-  "name": "testcafe-typescript",
+  "name": "testcafe-typescript-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/testcafe-typescript.git"
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-typescript-assert.git"
   },
   "scripts": {
     "lint": "tslint -c tslint.json './spec/*.ts'",
