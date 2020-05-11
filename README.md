@@ -2,7 +2,7 @@
     
 # TestCafé Boilerplate
     
-TestCafé end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org) and Assert.
+TestCafé end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org) and [Commonjs](https://nodejs.org/api/assert.html).
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/testcafe-typescript-assert.git
