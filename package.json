@@ -9,7 +9,7 @@
   },
   "description": "TestCafé end-to-end test automation boilerplate. Using TypeScript and Assert.",
   "devDependencies": {
-    "@types/node": "13.13.12",
+    "@types/node": "13.13.13",
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.4",
